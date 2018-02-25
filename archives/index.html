@@ -79,13 +79,16 @@
 
 
 
+<meta name="description" content="关于技术教程和读后感的分享">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Kanslor Blog">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
 <meta property="og:site_name" content="Kanslor Blog">
+<meta property="og:description" content="关于技术教程和读后感的分享">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Kanslor Blog">
+<meta name="twitter:description" content="关于技术教程和读后感的分享">
 
 
 
@@ -196,6 +199,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -300,7 +323,7 @@
         
             <a class="post-title-link" href="/2018/02/25/Markdown-Syntax/" itemprop="url">
               
-                <span itemprop="name">Markdown Syntax</span>
+                <span itemprop="name">Markdown 语法说明</span>
               
             </a>
         
@@ -337,7 +360,7 @@
         
             <a class="post-title-link" href="/2018/02/23/Minecraft-Server/" itemprop="url">
               
-                <span itemprop="name">Minecraft_Server</span>
+                <span itemprop="name">关于Minecraft服务端，你需要知道的都在这里（基友玩耍入门篇）</span>
               
             </a>
         
@@ -473,7 +496,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">Kanslor</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">关于技术教程和读后感的分享</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -491,6 +514,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -582,6 +614,12 @@
       </div>
     
 
+    
+      <div id="needsharebutton-float">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
     
 
   </div>
@@ -866,6 +904,31 @@
 
 
   
+  
+  
+  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
+
+  
+  
+  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+
+  <script>
+    
+    
+      flOptions = {};
+      
+          flOptions.iconStyle = "box";
+      
+          flOptions.boxForm = "horizontal";
+      
+          flOptions.position = "middleRight";
+      
+          flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-float', flOptions);
+    
+  </script>
+
   
 
   
